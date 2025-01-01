@@ -5,8 +5,7 @@ import TypingAnimation from "./TypingAnimation";
 
 const Hero = () => {
   return (
-    <div className="hero flex flex-col lg:flex-row items-center px-5 pb-20 lg:py-20 lg:mt-5 min-h-screen
-    ">
+    <div className="hero flex flex-col lg:flex-row items-center px-5 mb-1 lg:py-20 lg:mt-5 min-h-full">
       <div className="flex-1 md:ml-[5%] flex justify-center items-center lg:order-2">
         <img
           src={proimg}
@@ -26,7 +25,7 @@ const Hero = () => {
           This is my Portfolio website to showcase all my Web development
           project
         </p>
-        <div className="btn flex ">
+        <div className="btn flex">
         <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-2  rounded flex mx-2 ">
           <a
             href="Resume"
