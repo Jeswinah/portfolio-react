@@ -17,7 +17,7 @@ const Hero = () => {
         <h1 className="text-xl lg:text-2xl xl:text-3xl font-semibold  md:mb-2">
           Hello,It's Me
         </h1>
-        <h1 className="text-4xl lg:text-5xl xl:text-7xl font-bold mb-3 lg:mb-5 md:mb-4 font-mono ">
+        <h1 className="text-4xl lg:text-5xl xl:text-7xl font-bold  lg:mb-5 md:mb-4 font-mono ">
           Jeswin <span className="text-red-500"> A.H</span>
         </h1>
         <TypingAnimation />
