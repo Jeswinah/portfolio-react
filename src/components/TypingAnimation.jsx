@@ -34,7 +34,7 @@ const TypingAnimation = () => {
 
   return (
    
-      <div className="w-full  overflow-hidden mb-3 text-center md:text-left py-2  my-4">
+      <div className="w-full  overflow-hidden mb-3 text-center md:text-left py-2  my-2">
         <span className="text-black font-semibold text-xl md:text-3xl">I'm a Web </span>
         <span className="relative text-blue-900 font-semibold sec-text text-xl md:text-3xl"> </span>
       </div>
