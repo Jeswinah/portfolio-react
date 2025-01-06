@@ -5,9 +5,18 @@ import todo from '../assets/projects/todo.png'
 import portfolioimg from '../assets/projects/portfolio.png'
 import calimg from '../assets/projects/calender.png'
 import pinimg from '../assets/projects/pin-new.png'
+import recipeimg from'../assets/projects/recipeimg.png'
 
 const ProjectCard = () => {
   const projects = [
+    {
+      title: "Recipe Finder",
+      description: "Find Delicious Recipes is an innovative tool tailored for food enthusiasts to discover and explore a wide array of exciting and flavorful dishes to try at home.",
+      tags: ["React", "Tailwind CSS"],
+
+      imageUrl: recipeimg,
+      onViewProject: () => open("https://jeswin-recipe-finder.netlify.app/"),
+    },
     {
       title: "Real-Time Weather Tracker",
       description: "The real-time weather tracker is an interactive web application developed using ReactJS and styled with TailwindCSS.It allows users to input a location, and the app dynamically fetches and displays real-time weather data.",
@@ -63,7 +72,7 @@ const ProjectCard = () => {
   return (
     <div className="container mx-auto px-8 mt-3 ">
       <h1 className="flex justify-center text-4xl mb-10 font-bold font-serif">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -73,11 +82,11 @@ const ProjectCard = () => {
               <img
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-contain"
               />
             </div>
 
-            <div className="p-5  bg-slate-100">
+            <div className="p-5  bg-slate-100  ">
               <div className="flex justify-between items-start mb-3 ">
                 <h3 className="text-xl font-bold text-gray-900">
                   {project.title}
@@ -101,7 +110,7 @@ const ProjectCard = () => {
 
               <button
                 onClick={project.onViewProject}
-                className="w-full mt-4 bg-black hover:bg-gray-800 hover:text-black text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
+                className="w-full mt-4 bg-black hover:bg-gray-800 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2 "
               >
                 View Project
                 <svg
