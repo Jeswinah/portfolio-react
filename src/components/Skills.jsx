@@ -11,6 +11,7 @@ import pyimg from "../assets/logo/python-logo.png";
 import cimg from "../assets/logo/cimg.png";
 import git from "../assets/logo/git-icon.png";
 import vs from "../assets/logo/vs.png";
+import nodeimg from "../assets/logo/node.png";
 
 const SkillsDisplay = ({
   skills = [
@@ -46,6 +47,11 @@ const SkillsDisplay = ({
           name: "Tailwind CSS",
           image: tailwind, 
           alt: "tailwind logo",
+        },
+        {
+          name: "Node js",
+          image: nodeimg, 
+          alt: "Node js",
         },
     
 ]
