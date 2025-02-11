@@ -12,7 +12,7 @@ const ProjectCard = () => {
     {
       title: "Recipe Finder",
       description: "Find Delicious Recipes is an innovative tool tailored for food enthusiasts to discover and explore a wide array of exciting and flavorful dishes to try at home.",
-      tags: ["React", "Tailwind CSS"],
+      tags: ["React", "Tailwind CSS","Api"],
 
       imageUrl: recipeimg,
       onViewProject: () => open("https://jeswin-recipe-finder.netlify.app/"),
@@ -20,7 +20,7 @@ const ProjectCard = () => {
     {
       title: "Real-Time Weather Tracker",
       description: "The real-time weather tracker is an interactive web application developed using ReactJS and styled with TailwindCSS.It allows users to input a location, and the app dynamically fetches and displays real-time weather data.",
-      tags: ["React", "Tailwind CSS"],
+      tags: ["React","Api","Tailwind CSS"],
 
       imageUrl: weatherimg,
       onViewProject: () => open("https://weather-jeswinah.vercel.app/ "),
