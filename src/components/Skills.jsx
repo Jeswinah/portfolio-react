@@ -6,7 +6,6 @@ import bootstrap from "../assets/logo/icons8-bootstrap.svg";
 import react from "../assets/logo/react.svg";
 import tailwind from "../assets/logo/Tailwind_CSS_Logo.png";
 import javaimg from "../assets/logo/java.png";
-import cplusimg from "../assets/logo/cplus.png";
 import pyimg from "../assets/logo/python-logo.png";
 import cimg from "../assets/logo/cimg.png";
 import git from "../assets/logo/git-icon.png";
@@ -69,11 +68,6 @@ items: [
           name: "C",
           image: cimg, 
           alt: "C logo",
-        },
-        {
-          name: "C++",
-          image: cplusimg, 
-          alt: "C++ logo",
         },
         {
           name: "Java",
