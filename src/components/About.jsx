@@ -1,17 +1,20 @@
 import React from "react";
- import profile from "../assets/profile.jpg"
+import profile from "../assets/photo1.jpg";
 const About = () => {
   return (
     <>
-      <h1 className="text-4xl font-bold text-center mb-5 mt-2  font-serif" id="about">
+      <h1
+        className="text-4xl font-bold text-center mb-5 mt-2  font-serif"
+        id="about"
+      >
         About Me
       </h1>
-      <div className=" md:py-1 md:text-left tracking-wide mx-5  text-lg flex justify-center flex-col md:flex-row text-justify ">
-        <div className="contentimg w-5/12  h-4/6   flex justify-center  mx-auto lg:mx-1 md:mb-0 ">
+      <div className=" md:py-1 md:text-left tracking-wide mx-5  text-lg flex justify-center flex-col lg:flex-row text-justify ">
+        <div className="contentimg w-4/6 h-4/6 lg:w-5/12 lg:h-4/6   flex justify-center  mx-auto lg:mx-1 md:mb-0 ">
           <img
             src={profile}
             alt="developer"
-            className="w-full md:w-8/12 h-full border-2  rounded-2xl shadow-2xl shadow-gray-700   mb-10 lg:mt-5"
+            className="w-full lg:w-8/12  h-full border-2  rounded-2xl shadow-2xl shadow-gray-800  mb-10 lg:mt-4 flex items-start"
           />
         </div>
         <div className="content mx-2  flex-col w-11/12">
