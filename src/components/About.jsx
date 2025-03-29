@@ -33,11 +33,11 @@ const About = () => {
           </p>
           <h3 className="text-2xl font-semibold mb-5">Personal Statement</h3>
           <p>
-            "I am passionate about web development and committed to continuously
+            I am passionate about web development and committed to continuously
             improving my skills. As a fresher, I am eager to learn from
             experienced professionals and take on new challenges that will help
             me grow in this exciting field. My goal is to create seamless,
-            user-friendly web experiences that make a difference."
+            user-friendly web experiences that make a difference.
           </p>
         </div>
       </div>
